@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+.nav {
+  width: 100vw;
+  background-color: rgb(233, 195, 145);
+}
+.list {
+  display: inline-block;
+  padding: 15px 20px;
+
+  
+}
+.navItem {
+  text-decoration: none;
+  color: black;
+}
+.list:hover {
+  background-color: rgb(188, 129, 53);
+}
+.list:active {
+  background-color: rgb(188, 129, 53);
+}
+.Home {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -150px;
+  background-color: aqua;
+  background-image: url(./images/homeimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Form {
+  margin-left: 38%;
+  margin-top: 150px;
+  padding-top: 166px;
+}
+.Url {
+  width: 400px;
+  height: 31px;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.Date {
+  width: 403px;
+  height: 31px;
+  margin-top: 15px;
+  border-radius: 8px;
+  opacity: 0.7;
+  text-align: center;
+}
+.Identity {
+  width: 400px;
+  height: 31px;
+  opacity: 0.7;
+  margin-top: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+.click {
+  width: 408px;
+  height: 35px;
+  border-radius: 8px;
+  margin-top: 15px;
+  text-align: center;
+  background-color: #e5a34d;
+
+}
+table {
+  margin: auto;
+  margin-top: 26vh;
+}
+tr, th {
+  padding: 10px 140px;
+  text-align: center;
+  border-collapse: collapse;
+
+}
+.Icon {
+  background-color: rgb(164, 106, 29);
+    border-style: none;
+    color: #ff7d00;
+}
+svg.svg-inline--fa.fa-trash-can {
+  height: 18px;
+}
+table, tr, td {
+  border-collapse: collapse;
+}
+tr :nth-child(even) {
+  background-color: rgb(238, 200, 150);
+}
+.HIstory {
+  width: 800px;
+}
